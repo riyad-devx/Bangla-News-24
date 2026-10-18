@@ -92,7 +92,7 @@ Create a `.env` file in the project root and add the environment variables requi
 npm run dev
 ```
 
-Open [(https://bangla-news-24-riyad20.vercel.app)] in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🔌 API Integration
 
