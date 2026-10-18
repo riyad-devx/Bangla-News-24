@@ -1,40 +1,111 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 📰 Bangla News 24
 
-First, run the development server:
+A Bangla news website built with Next.js to explore the latest news and browse articles by category.
+
+## ✨ Features
+
+- 🏠 Homepage with news articles
+- 🗂️ Browse news by category
+- 📰 Read detailed news articles
+- 🔐 User authentication
+- 👤 User profile page
+- 📱 Responsive design for mobile, tablet, and desktop
+- ⚡ Fast navigation with Next.js
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Better Auth
+- REST API
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/riyad-devx/Bangla-News-24.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd Bangla-News-24
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the project root and add the environment variables required by the application.
+
+Do not commit your `.env` file or expose secrets publicly.
+
+### 5. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+Bangla-News-24/
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   └── lib/
+├── .env
+├── package.json
+└── README.md
+```
 
-## Learn More
+## 🌐 API
 
-To learn more about Next.js, take a look at the following resources:
+This project uses a news API to retrieve news articles and categories.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+API base URL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`https://news-api-v2.vercel.app`
 
-## Deploy on Vercel
+## 📦 Build for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To create a production build, run:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Bangla-News-24
->>>>>>> 57039bfb292cee9f38ac2c3b176201f56d00f23e
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm start
+```
+
+## 🚀 Deployment
+
+The project can be deployed on [Vercel](https://vercel.com/).
+
+Configure the required environment variables in your Vercel project settings before deploying.
+
+## 👨‍💻 Author
+
+**Riyad Mia**
+
+- GitHub: [@riyad-devx](https://github.com/riyad-devx)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
