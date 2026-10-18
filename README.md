@@ -1,30 +1,62 @@
 
 # 📰 Bangla News 24
 
-A Bangla news website built with Next.js to explore the latest news and browse articles by category.
+### Your Gateway to the Latest Bangla News
+
+**Bangla News 24** is a modern news website built with Next.js that allows users to explore the latest news, browse categories, and read detailed articles through a clean and responsive interface.
+
+<p align="center">
+  <a href="https://bangla-news-24-riyad20.vercel.app">
+    <strong>🌐 Live Demo</strong>
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/riyad-devx/Bangla-News-24">
+    <strong>📂 GitHub Repository</strong>
+  </a>
+</p>
+
+---
 
 ## ✨ Features
 
-- 🏠 Homepage with news articles
-- 🗂️ Browse news by category
-- 📰 Read detailed news articles
-- 🔐 User authentication
-- 👤 User profile page
-- 📱 Responsive design for mobile, tablet, and desktop
-- ⚡ Fast navigation with Next.js
+- 🏠 **News Homepage** — Explore the latest news articles.
+- 🗂️ **Category Navigation** — Browse news by category.
+- 📰 **News Details** — Read detailed articles.
+- 🔐 **Authentication** — User sign-in and sign-up functionality.
+- 👤 **User Profile** — Access the profile page.
+- 📱 **Responsive Design** — Optimized for mobile, tablet, and desktop.
+- ⚡ **Fast Performance** — Built with Next.js for efficient navigation.
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Better Auth
-- REST API
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework |
+| React | User interface |
+| TypeScript | Type safety |
+| Tailwind CSS | Styling and responsive design |
+| Better Auth | Authentication |
+| REST API | News data and categories |
+
+## 🌐 Live Project
+
+🔗 **Live Website:**  
+https://bangla-news-24-riyad20.vercel.app
+
+📦 **GitHub Repository:**  
+https://github.com/riyad-devx/Bangla-News-24
 
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm
+- Git
 
 ### 1. Clone the Repository
 
@@ -48,57 +80,52 @@ npm install
 
 Create a `.env` file in the project root and add the environment variables required by the application.
 
-Do not commit your `.env` file or expose secrets publicly.
+```env
+# Add your required environment variables here
+```
 
-### 5. Start the Development Server
+> **Important:** Never commit your `.env` file, API keys, authentication secrets, or database credentials to GitHub.
+
+### 5. Run the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [(https://bangla-news-24-riyad20.vercel.app/)] in your browser.
+Open [(https://bangla-news-24-riyad20.vercel.app)] in your browser.
 
-## 📂 Project Structure
+## 🔌 API Integration
 
-```text
-Bangla-News-24/
-├── public/
-├── src/
-│   ├── app/
-│   ├── components/
-│   └── lib/
-├── .env
-├── package.json
-└── README.md
-```
+The project uses a REST API to retrieve news articles and category information.
 
-## 🌐 API
+**API Base URL:**
 
-This project uses a news API to retrieve news articles and categories.
+https://news-api-v2.vercel.app
 
-API base URL:
+## 📦 Production Build
 
-`https://news-api-v2.vercel.app`
-
-## 📦 Build for Production
-
-To create a production build, run:
+To create an optimized production build:
 
 ```bash
 npm run build
 ```
 
-To start the production server:
+To run the production server locally:
 
 ```bash
 npm start
 ```
 
-## 🚀 Deployment
+## ☁️ Deployment
 
-The project can be deployed on [Vercel](https://vercel.com/).
+This project is deployed using [Vercel](https://vercel.com/).
 
-Configure the required environment variables in your Vercel project settings before deploying.
+To deploy your own version:
+
+1. Import the GitHub repository into Vercel.
+2. Configure the required environment variables.
+3. Deploy the project.
+4. Verify the deployment and test the live website.
 
 ## 👨‍💻 Author
 
@@ -108,4 +135,6 @@ Configure the required environment variables in your Vercel project settings bef
 
 ---
 
-⭐ If you find this project useful, consider giving it a star!
+<p align="center">
+  Built with ❤️ using Next.js and TypeScript
+</p>
