@@ -56,7 +56,7 @@ Do not commit your `.env` file or expose secrets publicly.
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [(https://bangla-news-24-riyad20.vercel.app/)] in your browser.
 
 ## 📂 Project Structure
 
@@ -102,7 +102,7 @@ Configure the required environment variables in your Vercel project settings bef
 
 ## 👨‍💻 Author
 
-**Riyad Mia**
+**Tamim Mia Riyad**
 
 - GitHub: [@riyad-devx](https://github.com/riyad-devx)
 
